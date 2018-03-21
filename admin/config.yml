@@ -10,7 +10,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "class"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "json"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Prerequisites", name: "prereqs", widget: "markdown"}
