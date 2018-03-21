@@ -1,0 +1,6 @@
+{
+  "layout": "json",
+  "title": "Basic JSON Data",
+  "description": "This is basic data about JSON.  It may \"have quotes\".",
+  "prereqs": "Being an Argonaut."
+}
