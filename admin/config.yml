@@ -3,6 +3,7 @@ backend:
   branch: master
 publish_mode: editorial_workflow
 media_folder: media
+extension: json
 collections:
   - name: "class"
     label: "Class"
