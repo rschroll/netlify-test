@@ -7,6 +7,9 @@ description: >-
 
 
   "Let's try a section with quotes," he said.
+
+
+  Will this be converted into JSON?
 prereqs: |-
   You should be able to
   - Turn on a computer
@@ -14,3 +17,4 @@ prereqs: |-
     - or maybe a touchpad
   - Look at a command line without flinching
 ---
+
