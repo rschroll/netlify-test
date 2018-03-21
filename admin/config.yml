@@ -1,0 +1,15 @@
+backend:
+  name: git-gateway
+  branch: master
+publish_mode: editorial_workflow
+collections:
+  - name: "class"
+    label: "Class"
+    folder: "classes"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "class"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Prerequisites", name: "prereqs", widget: "markdown"}
