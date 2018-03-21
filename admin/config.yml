@@ -20,6 +20,16 @@ collections:
         widget: "list"
         fields:
           - {label: "Topic", name: "topic", widget: "string"}
+      - label: "Notebooks"
+        name: "notebooks"
+        widget: "list"
+        fields:
+          - label: "Notebook"
+            name: "notebook"
+            widget: "relation"
+            collection: "notebook"
+            searchFields: ["title"]
+            valueField: "title"
   - name: "notebook"
     label: "Notebook"
     folder: "notebooks"
