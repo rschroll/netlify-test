@@ -18,7 +18,7 @@ collections:
       - label: "Topics"
         name: "topics"
         widget: "list"
-        field:
+        fields:
           - {label: "Topic", name: "topic", widget: "string"}
   - name: "notebook"
     label: "Notebook"
