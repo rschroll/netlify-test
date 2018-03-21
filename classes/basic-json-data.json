@@ -13,5 +13,13 @@
     {
       "topic": "Displacement"
     }
+  ],
+  "notebooks": [
+    {
+      "notebook": "Notebook1"
+    },
+    {
+      "notebook": "Other Stuff"
+    }
   ]
 }
