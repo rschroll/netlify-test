@@ -1,5 +1,5 @@
 ---
-layout: class
+layout: json
 title: Intro to Data Stuff
 description: >-
   Here you will get to know all about **data**, which is pretty cool.  You'll
@@ -14,4 +14,3 @@ prereqs: |-
     - or maybe a touchpad
   - Look at a command line without flinching
 ---
-
