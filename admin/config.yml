@@ -15,3 +15,11 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Prerequisites", name: "prereqs", widget: "markdown"}
+  - name: "notebook"
+    label: "Notebook"
+    folder: "notebooks"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "markdown"}
