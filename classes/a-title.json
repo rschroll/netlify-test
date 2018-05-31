@@ -1,0 +1,16 @@
+{
+  "layout": "json",
+  "title": "A title",
+  "description": "youtube yvZ-qYrsCLI\n\nA video",
+  "prereqs": "Some prereqs",
+  "topics": [
+    {
+      "topic": "a topic"
+    }
+  ],
+  "notebooks": [
+    {
+      "notebook": "Notebook1"
+    }
+  ]
+}
