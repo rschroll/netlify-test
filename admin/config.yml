@@ -30,6 +30,7 @@ collections:
             collection: "notebook"
             searchFields: ["title"]
             valueField: "title"
+      - {label: "Test Field", name: "test_field", widget: "categories"}
   - name: "notebook"
     label: "Notebook"
     folder: "notebooks"
